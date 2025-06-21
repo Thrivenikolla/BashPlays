@@ -14,3 +14,18 @@ elif [ $((num % 2)) -eq 0 ]; then
 else
     echo "given number $num is odd"
 fi
+
+#check given num is even or odd and also positive or negative
+read -p "enter a number : " num
+if [[ $num -gt 0 && $((num % 2)) -eq 0 ]]; then
+    echo "given num is positive and even"
+elif [[ $num -gt 0 && $((num % 2)) -ne 0 ]]; then
+    echo "given num is positive and odd"
+elif [[ $num -lt 0 && $((num % 2)) -eq 0 ]]; then
+    echo "given num is negative and even"
+elif [[ $num -lt 0 && $((num % 2)) -ne 0 ]]; then
+    echo "given num is negative and odd"
+else
+    echo "given num is zero"
+fi
+
