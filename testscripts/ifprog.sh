@@ -29,3 +29,10 @@ else
     echo "given num is zero"
 fi
 
+#Check if file exists
+read -p "Give the filename to check:" filename
+if [ -f $filename ]; then
+    echo "File $filename exists"
+else
+    echo "file $filename does not exist"
+fi
