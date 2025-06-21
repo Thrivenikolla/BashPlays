@@ -1,0 +1,10 @@
+#Print your name using a variable
+#!/bin/bash
+echo "Your name is: "
+read name
+echo "Hello, $name!"
+
+# Print your name using a variable
+#!/bin/bash
+read -p "Enter your name: " name
+echo "Hello, $name!"
