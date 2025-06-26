@@ -59,3 +59,13 @@ echo "Hi $1, welcome to the world of shell scripting"
 echo "Hi Sri" > input.txt
 echo "Hello Sri" >> input.txt
 ls . > files.txt
+
+#print numbers with while loop
+echo "give num to print numbers: "
+read num
+i=1
+while [[ i -le $num ]]
+do
+    echo $i
+    ((i++))
+done
