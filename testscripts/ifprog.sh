@@ -39,9 +39,15 @@ fi
 
 #test program
 #!/bin/bash
-echo "Today's date is: " $(date)
+echo "Today's date is: " $(date) `date`
 
 echo -e "\n Enter the path to dir:"
 read path
 echo -e "\n file in dir are:"
 ls $path
+
+#reads each line from a file named input.txt and prints it to the terminal
+while read line
+do
+    echo $line
+done < one.txt
