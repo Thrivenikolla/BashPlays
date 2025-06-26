@@ -1,0 +1,14 @@
+0
+checkfilepermissions.sh
+files.txt
+ifprog.sh
+image1.jpg
+image2.jpg
+input.txt
+listfiles.sh
+nameprint
+one.txt
+primenumcheck.sh
+rename.sh
+sumofno.sh
+two.txt

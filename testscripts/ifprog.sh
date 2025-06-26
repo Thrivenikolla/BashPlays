@@ -54,3 +54,8 @@ done < one.txt
 
 #take input from command line along with script name
 echo "Hi $1, welcome to the world of shell scripting"
+
+#add, append, store textto file
+echo "Hi Sri" > input.txt
+echo "Hello Sri" >> input.txt
+ls . > files.txt
