@@ -51,3 +51,6 @@ while read line
 do
     echo $line
 done < one.txt
+
+#take input from command line along with script name
+echo "Hi $1, welcome to the world of shell scripting"
