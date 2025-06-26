@@ -36,3 +36,12 @@ if [ -f $filename ]; then
 else
     echo "file $filename does not exist"
 fi
+
+#test program
+#!/bin/bash
+echo "Today's date is: " $(date)
+
+echo -e "\n Enter the path to dir:"
+read path
+echo -e "\n file in dir are:"
+ls $path
